@@ -1,4 +1,5 @@
 GEM
+  remote: http://rubygems.org/
   specs:
     coffee-script (2.2.0)
       coffee-script-source
@@ -10,6 +11,7 @@ GEM
     rack (1.2.4)
     sinatra (1.0)
       rack (>= 1.0)
+    therubyracer-heroku (0.8.1.pre3)
 
 PLATFORMS
   ruby
@@ -17,3 +19,4 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   sinatra
+  therubyracer-heroku (= 0.8.1.pre3)
